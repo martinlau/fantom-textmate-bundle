@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Fantom</string>
+	<key>ordering</key>
+	<array>
+		<string>7E95BB8A-FD21-476E-B8D4-CEA1F9523D67</string>
+		<string>230F3128-53C2-4313-9557-01404273CFE0</string>
+		<string>E7C3A8B7-758D-4299-BD4A-33F119E95165</string>
+		<string>E9E6D077-29CA-483D-A731-3AC394BD30C2</string>
+		<string>7ABD4046-4994-4536-8528-04E4F2CD5E22</string>
+		<string>2114844D-90EA-4D54-8AB8-12B7B47430E0</string>
+		<string>6F9E40D1-D036-44CC-B0BC-8842D92A7C5E</string>
+		<string>CF4DC0F0-CA62-426F-8B08-9BD0EABBF5F6</string>
+		<string>A75AB8D2-90B5-43DE-9B69-2A2EB7990C8C</string>
+		<string>F9EAB8AF-04EB-4F5C-8D95-AB6FF9F12823</string>
+		<string>0BADEC2C-8909-473F-B314-49081583444C</string>
+		<string>CFA205C5-276E-4D71-9ABB-5512BF15ED33</string>
+		<string>16B7C74F-0ED9-430D-8D77-D42BDB6F136E</string>
+		<string>F7F43415-96DE-49BA-96C2-EB8AFCDD4F67</string>
+		<string>E1AA0F64-32C0-4E34-9B21-1EA9961E19BC</string>
+		<string>EADC5CE6-946B-49D8-A7EA-3E4C6EB674CD</string>
+		<string>0D323511-DCB2-4B4E-92F2-0712775BE92F</string>
+		<string>19752E1F-945A-4875-A4E2-1A95EED763A1</string>
+		<string>B55520F6-3724-40E3-A742-182C0E00E079</string>
+		<string>74B853F9-3FF8-4EA3-BFF3-805E11681058</string>
+		<string>2E58C345-A90F-4981-B3D0-CA65B6238981</string>
+		<string>6D0AA33F-DA64-49B5-8CD2-16BA19088427</string>
+		<string>DB6BB811-51E2-42A2-8765-2404DDE287C1</string>
+	</array>
+	<key>uuid</key>
+	<string>4A403036-3BF2-4F7F-801C-78A64399AACF</string>
+</dict>
+</plist>

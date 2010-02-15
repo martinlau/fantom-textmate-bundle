@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$LICENSE
+
+using build
+
+**
+** Standard build script for the $4 pod
+**
+class Build : BuildPod
+{
+
+    **
+    ** Configures the build script for the $4 pod
+    **
+    new make()
+    {
+        depends = [${1:"sys 1.0"}]
+        docApi = ${2:true}
+        docSrc = ${3:true}
+        podName = "${4:podName}"
+        srcDirs = [${5:\`fan/\`}, ${6:\`test/\`}]
+        summary = "${7:summary of $4}"
+        version = Version("${8:1.0}")
+    }
+
+}
+</string>
+	<key>name</key>
+	<string>Build</string>
+	<key>scope</key>
+	<string>source.fantom</string>
+	<key>tabTrigger</key>
+	<string>build</string>
+	<key>uuid</key>
+	<string>7ABD4046-4994-4536-8528-04E4F2CD5E22</string>
+</dict>
+</plist>

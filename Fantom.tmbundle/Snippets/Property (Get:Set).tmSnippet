@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>**
+** $2
+**
+${1:Obj} ${2:property}
+{
+	get
+	{
+		${3:return *$2}
+	}
+	set
+	{
+		${4:*$2 = it}
+	}
+}
+</string>
+	<key>name</key>
+	<string>Property (Get/Set)</string>
+	<key>scope</key>
+	<string>source.fantom</string>
+	<key>tabTrigger</key>
+	<string>propgs</string>
+	<key>uuid</key>
+	<string>16B7C74F-0ED9-430D-8D77-D42BDB6F136E</string>
+</dict>
+</plist>

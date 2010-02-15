@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$LICENSE
+
+using build
+
+**
+** $1
+**
+internal class ${1:TestName} : Test
+{
+
+	**
+	** Performs additional setup needed for $1
+	**
+	override Void setup()
+	{
+		super.setup()
+		${2:// other setup}
+	}
+
+	**
+	** Cleans up additional setup needed for $1
+	**
+	override Void teardown()
+	{
+		super.teardown()
+		${3:// other teardown}
+	}
+
+	**
+	** Tests $4
+	**
+	Void test${4:Failure}()
+	{
+		${0:fail("Implement me!")}
+	}
+
+}
+</string>
+	<key>name</key>
+	<string>Test</string>
+	<key>scope</key>
+	<string>source.fantom</string>
+	<key>tabTrigger</key>
+	<string>test</string>
+	<key>uuid</key>
+	<string>2114844D-90EA-4D54-8AB8-12B7B47430E0</string>
+</dict>
+</plist>

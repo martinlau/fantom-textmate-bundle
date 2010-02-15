@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>**
+** $2
+**
+${1:Void} ${2:method}($3)
+{
+	$0
+}
+</string>
+	<key>name</key>
+	<string>Method</string>
+	<key>scope</key>
+	<string>source.fantom</string>
+	<key>tabTrigger</key>
+	<string>meth</string>
+	<key>uuid</key>
+	<string>0BADEC2C-8909-473F-B314-49081583444C</string>
+</dict>
+</plist>
