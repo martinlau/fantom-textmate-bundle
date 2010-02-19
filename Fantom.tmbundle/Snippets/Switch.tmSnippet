@@ -9,6 +9,8 @@
 		${3:// expression}
 	case ${4:expression}:
 		${5:// expression}
+	case ${6:expression}:
+		${7:// expression}
 	default:
 		${0:// expression}
 }

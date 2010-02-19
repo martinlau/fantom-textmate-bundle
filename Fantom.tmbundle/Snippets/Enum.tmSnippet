@@ -6,9 +6,9 @@
 	<string>$LICENSE
 
 **
-** $1
+** ${3:$2}
 **
-enum class ${1:EnumName}
+${1:internal }enum class ${2:EnumName}
 {
 	$0
 }

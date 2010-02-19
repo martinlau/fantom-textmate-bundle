@@ -13,9 +13,9 @@ else if (${3:condition})
 }
 else
 {
-	${0:// expression}
+	${5:// expression}
 }
-</string>
+$0</string>
 	<key>name</key>
 	<string>If/ElseIf/Else</string>
 	<key>scope</key>

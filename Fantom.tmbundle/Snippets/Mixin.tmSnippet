@@ -6,9 +6,9 @@
 	<string>$LICENSE
 
 **
-** $1
+** ${3:$2}
 **
-mixin ${1:MixinName}
+${1:internal }mixin ${2:MixinName}
 {
 	$0
 }

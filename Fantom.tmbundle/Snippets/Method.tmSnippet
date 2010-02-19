@@ -4,9 +4,9 @@
 <dict>
 	<key>content</key>
 	<string>**
-** $2
+** ${4:$2}
 **
-${1:Void} ${2:method}($3)
+${1:Void} ${2:method}(${3:/* params */})
 {
 	$0
 }

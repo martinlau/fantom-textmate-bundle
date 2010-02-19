@@ -4,17 +4,17 @@
 <dict>
 	<key>content</key>
 	<string>**
-** $2
+** ${3:$2}
 **
 ${1:Obj} ${2:property}
 {
 	get
 	{
-		${3:return *$2}
+		${4:return *$2}
 	}
 	set
 	{
-		${4:*$2 = it}
+		${5:*$2 = it}
 	}
 }
 </string>

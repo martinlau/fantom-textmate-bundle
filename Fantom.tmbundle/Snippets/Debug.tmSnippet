@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>if (log.isDebug) log.debug("${1:message"})</string>
+	<string>Pod.of(this).log.debug("${1:message}")</string>
 	<key>name</key>
 	<string>Debug</string>
 	<key>scope</key>

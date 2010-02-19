@@ -3,26 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>try
+	<string>$LICENSE
+
+**
+** ${4:$2}
+**
+${1:const }class ${2:ClassName} : ${3:SuperClassName}
 {
-	${1:// expression}
+	$0
 }
-catch(${2:Err} ${3:err})
-{
-	${4:// handler}
-}
-finally
-{
-	${5:// cleanup}
-}
-$0</string>
+</string>
 	<key>name</key>
-	<string>Try/Catch/Finally</string>
+	<string>Class/Extends</string>
 	<key>scope</key>
 	<string>source.fantom</string>
 	<key>tabTrigger</key>
-	<string>tcf</string>
+	<string>classe</string>
 	<key>uuid</key>
-	<string>6D0AA33F-DA64-49B5-8CD2-16BA19088427</string>
+	<string>98A81C59-51F6-45CB-B60B-84053091087C</string>
 </dict>
 </plist>

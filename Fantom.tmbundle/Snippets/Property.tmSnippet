@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>**
-** $2
+** ${3:$2}
 **
 ${1:Obj} ${2:property}
 </string>

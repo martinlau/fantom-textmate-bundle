@@ -3,26 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>try
+	<string>$LICENSE
+
+**
+** ${4:$2}
+**
+${1:internal }mixin ${2:MixinName} : ${3:SuperMixinName}
 {
-	${1:// expression}
+	$0
 }
-catch(${2:Err} ${3:err})
-{
-	${4:// handler}
-}
-finally
-{
-	${5:// cleanup}
-}
-$0</string>
+</string>
 	<key>name</key>
-	<string>Try/Catch/Finally</string>
+	<string>Mixin/Extends</string>
 	<key>scope</key>
 	<string>source.fantom</string>
 	<key>tabTrigger</key>
-	<string>tcf</string>
+	<string>mixine</string>
 	<key>uuid</key>
-	<string>6D0AA33F-DA64-49B5-8CD2-16BA19088427</string>
+	<string>64076721-C3E9-4666-8017-EE64234DB764</string>
 </dict>
 </plist>

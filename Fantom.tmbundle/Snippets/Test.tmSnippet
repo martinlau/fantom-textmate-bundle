@@ -8,33 +8,35 @@
 using build
 
 **
-** $1
+** Tests \`$1\`.
 **
-internal class ${1:TestName} : Test
+internal class ${1:ClassBeingTested}Test : Test
 {
 
+	${2:// test fields}
+
 	**
-	** Performs additional setup needed for $1
+	** Performs additional setup needed for \`$1\`.
 	**
 	override Void setup()
 	{
 		super.setup()
-		${2:// other setup}
+		${3:// other setup}
 	}
 
 	**
-	** Cleans up additional setup needed for $1
+	** Cleans up additional setup needed for \`$1\`.
 	**
 	override Void teardown()
 	{
 		super.teardown()
-		${3:// other teardown}
+		${4:// other teardown}
 	}
 
 	**
-	** Tests $4
+	** Tests \`$1.$5\`.
 	**
-	Void test${4:Failure}()
+	Void test${5:Failure}()
 	{
 		${0:fail("Implement me!")}
 	}
