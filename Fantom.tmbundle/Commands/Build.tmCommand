@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>
+$FANTOM_INSTALL/adm/tools/textmate/build.fan $TM_FILEPATH</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@b</string>
+	<key>name</key>
+	<string>Build</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.fantom</string>
+	<key>uuid</key>
+	<string>21E7CB58-B261-4B9C-AF4C-BE1E5B852B21</string>
+</dict>
+</plist>
