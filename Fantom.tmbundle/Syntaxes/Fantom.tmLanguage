@@ -34,7 +34,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(abstract|as|assert|break|case|catch|class|const|continue|default|do|else|facet|false|final|finally|for|foreach|if|internal|is|isnot|it|mixin|native|new|null|once|override|private|protected|public|readonly|return|static|super|switch|this|throw|true|try|using|virtual|void|volatile|while)\b</string>
+			<string>\b(abstract|as|assert|break|case|catch|class|const|continue|default|do|else|facet|final|finally|for|foreach|if|internal|is|isnot|mixin|native|new|once|override|private|protected|public|readonly|return|static|switch|throw|try|using|virtual|void|volatile|while)\b</string>
 			<key>name</key>
 			<string>keyword.control.fantom</string>
 		</dict>
@@ -49,6 +49,12 @@
 			<string>\b(null|true|false)\b</string>
 			<key>name</key>
 			<string>constant.language.fantom</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(this|it|super)\b</string>
+			<key>name</key>
+			<string>variable.language.fantom</string>
 		</dict>
 		<dict>
 			<key>match</key>
