@@ -101,13 +101,13 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\\.</string>
+					<string>\\u[0-9a-fA-F]{4}|\\.</string>
 					<key>name</key>
 					<string>constant.character.escape.fan</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\$[a-zA-Z_\{][a-zA-Z_0-9\}\.\(\)]*</string>
+					<string>\$([a-zA-Z_][a-zA-Z_0-9]*(\.[a-zA-Z_][a-zA-Z_0-9]*)*)|\$\{[^\}]*\}</string>
 					<key>name</key>
 					<string>source.fan.embedded.source.empty</string>
 				</dict>
@@ -140,13 +140,13 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\\.</string>
+					<string>\\u[0-9a-fA-F]{4}|\\.</string>
 					<key>name</key>
 					<string>constant.character.escape.fan</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\$[a-zA-Z_\{][a-zA-Z_0-9\}\.\(\)]*</string>
+					<string>\$([a-zA-Z_][a-zA-Z_0-9]*(\.[a-zA-Z_][a-zA-Z_0-9]*)*)|\$\{[^\}]*\}</string>
 					<key>name</key>
 					<string>source.fan.embedded.source.empty</string>
 				</dict>
@@ -179,7 +179,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\\.</string>
+					<string>\\u[0-9a-fA-F]{4}|\\.</string>
 					<key>name</key>
 					<string>constant.character.escape.fan</string>
 				</dict>
@@ -212,9 +212,54 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\\.</string>
+					<string>\\u[0-9a-fA-F]{4}|\\.</string>
 					<key>name</key>
 					<string>constant.character.escape.fan</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\$([a-zA-Z_][a-zA-Z_0-9]*(\.[a-zA-Z_][a-zA-Z_0-9]*)*)|\$\{[^\}]*\}</string>
+					<key>name</key>
+					<string>source.fan.embedded.source.empty</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>&lt;\|</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.fan</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>\|&gt;</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.fan</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>string.quoted.dsl.fan</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\\u[0-9a-fA-F]{4}|\\.</string>
+					<key>name</key>
+					<string>constant.character.escape.fan</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\$([a-zA-Z_][a-zA-Z_0-9]*(\.[a-zA-Z_][a-zA-Z_0-9]*)*)|\$\{[^\}]*\}</string>
+					<key>name</key>
+					<string>source.fan.embedded.source.empty</string>
 				</dict>
 			</array>
 		</dict>
